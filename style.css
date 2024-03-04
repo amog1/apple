@@ -1,0 +1,53 @@
+html {
+  background-color: #cabfb6;
+}
+
+body {
+  background-color: white;
+  width: 600px;
+  padding: 100px;
+  margin: auto;
+}
+img {
+  width: 600px;
+  height: 600ox;
+}
+
+h2 {
+  background-color: #c9793b;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.b1 {
+  background-color: #a4c93b;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: white;
+}
+.b2 {
+  background-color: #b6bcca;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: white;
+}
+p {
+  // <uniquifier>: Use a unique and descriptive class name
+  // <weight>: Use a value from 300 to 800
+
+  .open-sans-<uniquifier > {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+}
+
+a:hover {
+  color: black;
+  background-color: #a4c93b;
+}
